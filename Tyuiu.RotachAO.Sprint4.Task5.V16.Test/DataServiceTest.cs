@@ -9,9 +9,9 @@ public class DataServiceTest
    public void ValidExpression()  
    {
         DataService ds = new DataService();
-        int[,] data = new int[,] { { 5, -2 }, { -3, 4 } };
+        int[,] data = new int[,] { { -6, 3, 3, 0, -3 }, { -6, -6, -4, -4, 1 } };
         int[,] res = ds.Calculate(data);
-        int[,] x = new int[,] { { 1, -2 }, { -3, 1 } };
+        int[,] x = new int[,] { { -6, 1, 1, 0, -3 }, { -6, -6, -4, -4, 1 } };
         CollectionAssert.AreEqual(x, res);
     } 
 } 
