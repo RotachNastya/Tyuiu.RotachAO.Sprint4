@@ -10,10 +10,10 @@ public class DataServiceTest
    {
         DataService ds = new DataService();
 
-        int[] numsArray = {2, 2,3,4,5,6,7,6,5,4,3,2,1};
+        int[] numsArray = { 5, 2, 2, 2, 5, 6, 4, 3, 7, 6, 4, 7, 3 };
 
         int res = ds.Calculate(numsArray);
-        int wait = 25;
+        int wait = 26;
         Assert.AreEqual(wait, res);
     } 
 } 
