@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.RotachAO.Sprint4.Task2.V27.Lib\Tyuiu.RotachAO.Sprint4.Task2.V27.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.RotachAO.Sprint4.Task3.V20.Lib\Tyuiu.RotachAO.Sprint4.Task3.V20.Lib.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
